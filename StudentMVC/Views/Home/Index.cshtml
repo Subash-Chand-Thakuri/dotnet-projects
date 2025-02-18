@@ -1,0 +1,22 @@
+﻿@{
+    ViewData["Title"] = "Home";
+    int tableNumber = ViewBag.TableNumber;
+}
+
+<h2>Home Page</h2>
+
+<p><strong>Current Date and Time:</strong> @ViewBag.CurrentDateTime</p>
+<p><strong>Name:</strong> @ViewBag.Name</p>
+<p><strong>Roll Number:</strong> @ViewBag.RollNo</p>
+
+<h3>Multiplication Table of @tableNumber</h3>
+<table border="1" cellpadding="5">
+    @for (int i = 1; i <= 10; i++)
+    {
+        <tr>
+            <td>@tableNumber x @i = @(tableNumber * i)</td>
+        </tr>
+    }
+</table>
+
+<p><a asp-controller="Home" asp-action="CreateStudent">Create Student</a></p>

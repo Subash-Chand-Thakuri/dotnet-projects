@@ -1,0 +1,28 @@
+/media/subash/New Volume/Academic/Notes VI Sem/NETCentri/lab/LabProject/bin/Debug/net8.0/LabProject
+/media/subash/New Volume/Academic/Notes VI Sem/NETCentri/lab/LabProject/bin/Debug/net8.0/LabProject.deps.json
+/media/subash/New Volume/Academic/Notes VI Sem/NETCentri/lab/LabProject/bin/Debug/net8.0/LabProject.runtimeconfig.json
+/media/subash/New Volume/Academic/Notes VI Sem/NETCentri/lab/LabProject/bin/Debug/net8.0/LabProject.dll
+/media/subash/New Volume/Academic/Notes VI Sem/NETCentri/lab/LabProject/bin/Debug/net8.0/LabProject.pdb
+/media/subash/New Volume/Academic/Notes VI Sem/NETCentri/lab/LabProject/obj/Debug/net8.0/LabProject.GeneratedMSBuildEditorConfig.editorconfig
+/media/subash/New Volume/Academic/Notes VI Sem/NETCentri/lab/LabProject/obj/Debug/net8.0/LabProject.AssemblyInfoInputs.cache
+/media/subash/New Volume/Academic/Notes VI Sem/NETCentri/lab/LabProject/obj/Debug/net8.0/LabProject.AssemblyInfo.cs
+/media/subash/New Volume/Academic/Notes VI Sem/NETCentri/lab/LabProject/obj/Debug/net8.0/LabProject.csproj.CoreCompileInputs.cache
+/media/subash/New Volume/Academic/Notes VI Sem/NETCentri/lab/LabProject/obj/Debug/net8.0/LabProject.dll
+/media/subash/New Volume/Academic/Notes VI Sem/NETCentri/lab/LabProject/obj/Debug/net8.0/refint/LabProject.dll
+/media/subash/New Volume/Academic/Notes VI Sem/NETCentri/lab/LabProject/obj/Debug/net8.0/LabProject.pdb
+/media/subash/New Volume/Academic/Notes VI Sem/NETCentri/lab/LabProject/obj/Debug/net8.0/LabProject.genruntimeconfig.cache
+/media/subash/New Volume/Academic/Notes VI Sem/NETCentri/lab/LabProject/obj/Debug/net8.0/ref/LabProject.dll
+/media/subash/OS/Notes VI Sem/NETCentri/lab/LabProject/bin/Debug/net8.0/LabProject
+/media/subash/OS/Notes VI Sem/NETCentri/lab/LabProject/bin/Debug/net8.0/LabProject.deps.json
+/media/subash/OS/Notes VI Sem/NETCentri/lab/LabProject/bin/Debug/net8.0/LabProject.runtimeconfig.json
+/media/subash/OS/Notes VI Sem/NETCentri/lab/LabProject/bin/Debug/net8.0/LabProject.dll
+/media/subash/OS/Notes VI Sem/NETCentri/lab/LabProject/bin/Debug/net8.0/LabProject.pdb
+/media/subash/OS/Notes VI Sem/NETCentri/lab/LabProject/obj/Debug/net8.0/LabProject.GeneratedMSBuildEditorConfig.editorconfig
+/media/subash/OS/Notes VI Sem/NETCentri/lab/LabProject/obj/Debug/net8.0/LabProject.AssemblyInfoInputs.cache
+/media/subash/OS/Notes VI Sem/NETCentri/lab/LabProject/obj/Debug/net8.0/LabProject.AssemblyInfo.cs
+/media/subash/OS/Notes VI Sem/NETCentri/lab/LabProject/obj/Debug/net8.0/LabProject.csproj.CoreCompileInputs.cache
+/media/subash/OS/Notes VI Sem/NETCentri/lab/LabProject/obj/Debug/net8.0/LabProject.dll
+/media/subash/OS/Notes VI Sem/NETCentri/lab/LabProject/obj/Debug/net8.0/refint/LabProject.dll
+/media/subash/OS/Notes VI Sem/NETCentri/lab/LabProject/obj/Debug/net8.0/LabProject.pdb
+/media/subash/OS/Notes VI Sem/NETCentri/lab/LabProject/obj/Debug/net8.0/LabProject.genruntimeconfig.cache
+/media/subash/OS/Notes VI Sem/NETCentri/lab/LabProject/obj/Debug/net8.0/ref/LabProject.dll
