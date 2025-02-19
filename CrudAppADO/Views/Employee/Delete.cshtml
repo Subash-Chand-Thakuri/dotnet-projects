@@ -1,0 +1,7 @@
+@model CrudAppADO.Models.Employee
+
+<h2>Are you sure you want to delete @Model.Name?</h2>
+<form method="post">
+    <button type="submit" class="btn btn-danger">Yes, Delete</button>
+    <a href="/Employee" class="btn btn-secondary">Cancel</a>
+</form>

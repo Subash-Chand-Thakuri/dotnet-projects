@@ -1,0 +1,19 @@
+@{
+    ViewData["Title"] = "State Management Demo";
+}
+
+<h2>State Management in ASP.NET Core</h2>
+
+<ul>
+    <li><a href="@Url.Action("SetSession", "State")">Set & Get Session State</a></li>
+    <li><a href="@Url.Action("SetHttpContext", "State")">Set & Get HttpContext</a></li>
+    <li><a href="@Url.Action("SetTempData", "State")">Set & Get TempData</a></li>
+    <li><a href="@Url.Action("SetCookie", "State")">Set & Get Cookie</a></li>
+    <li><a href="@Url.Action("QueryStringExample", "State", new { user = "Alice" })">Query String Example</a></li>
+</ul>
+
+<!-- Hidden Field Example -->
+<form method="post" action="@Url.Action("HiddenFieldExample", "State")">
+    <input type="hidden" name="hiddenValue" value="HiddenDataValue" />
+    <button type="submit">Submit Hidden Field</button>
+</form>

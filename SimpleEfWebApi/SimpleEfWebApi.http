@@ -1,0 +1,6 @@
+@SimpleEfWebApi_HostAddress = http://localhost:5237
+
+GET {{SimpleEfWebApi_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

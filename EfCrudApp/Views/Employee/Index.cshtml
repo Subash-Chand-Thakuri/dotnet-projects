@@ -1,0 +1,36 @@
+@model IEnumerable<EfCrudApp.Models.Employee>
+
+@{
+    ViewData["Title"] = "Employee List";
+}
+
+<h2>@ViewData["Title"]</h2>
+<p>
+    <a asp-action="Create" class="btn btn-primary">Create New Employee</a>
+</p>
+<table class="table table-striped">
+    <thead>
+        <tr>
+            <th>Id</th>
+            <th>Name</th>
+            <th>Age</th>
+            <th>Department</th>
+            <th>Actions</th>
+        </tr>
+    </thead>
+    <tbody>
+    @foreach (var emp in Model)
+    {
+        <tr>
+            <td>@emp.Id</td>
+            <td>@emp.Name</td>
+            <td>@emp.Age</td>
+            <td>@emp.Department</td>
+            <td>
+                <a asp-action="Edit" asp-route-id="@emp.Id" class="btn btn-warning">Edit</a>
+                <a asp-action="Delete" asp-route-id="@emp.Id" class="btn btn-danger">Delete</a>
+            </td>
+        </tr>
+    }
+    </tbody>
+</table>
