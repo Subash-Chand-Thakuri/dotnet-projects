@@ -1,0 +1,64 @@
+@{
+    ViewData["Title"] = "Sign Up";
+}
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>Sign Up</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+</head>
+<body>
+    <div class="container">
+        <h2>Sign Up</h2>
+        @if(ViewBag.Error != null)
+        {
+            <div class="alert alert-danger">@ViewBag.Error</div>
+        }
+        @if(ViewBag.Message != null)
+        {
+            <div class="alert alert-success">@ViewBag.Message</div>
+        }
+        <form id="signUpForm" method="post">
+            <div class="form-group">
+                <label for="Name">Name</label>
+                <input class="form-control" type="text" name="Name" id="Name" required />
+            </div>
+            <div class="form-group">
+                <label for="Email">Email</label>
+                <input class="form-control" type="email" name="Email" id="Email" required />
+            </div>
+            <div class="form-group">
+                <label for="Password">Password</label>
+                <input class="form-control" type="password" name="Password" id="Password" required minlength="6" />
+            </div>
+            <button type="submit" class="btn btn-primary">Sign Up</button>
+        </form>
+    </div>
+    <!-- jQuery and jQuery Validate -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/jquery.validation/1.16.0/jquery.validate.min.js"></script>
+    <script>
+        $(document).ready(function () {
+            $("#signUpForm").validate({
+                rules: {
+                    Name: "required",
+                    Email: {
+                        required: true,
+                        email: true
+                    },
+                    Password: {
+                        required: true,
+                        minlength: 6
+                    }
+                },
+                messages: {
+                    Name: "Please enter your name",
+                    Email: "Please enter a valid email address",
+                    Password: "Password must be at least 6 characters long"
+                }
+            });
+        });
+    </script>
+</body>
+</html>

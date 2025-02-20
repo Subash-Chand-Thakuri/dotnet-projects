@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <h2>Calculator</h2>
+    <div class="form-group">
+      <label for="number1">Number 1:</label>
+      <input
+        type="number"
+        id="number1"
+        [(ngModel)]="number1"
+        class="form-control"
+      />
+    </div>
+
+    <div class="form-group">
+      <label for="number2">Number 2:</label>
+      <input
+        type="number"
+        id="number2"
+        [(ngModel)]="number2"
+        class="form-control"
+      />
+    </div>
+
+    <div class="form-group">
+      <label for="operation">Operation:</label>
+      <select id="operation" [(ngModel)]="operation" class="form-control">
+        <option value="add">Add</option>
+        <option value="subtract">Subtract</option>
+        <option value="multiply">Multiply</option>
+      </select>
+    </div>
+
+    <button class="btn btn-primary" (click)="compute()">Compute</button>
+
+    <h3 class="mt-3">Result: {{ result }}</h3>
+  </body>
+</html>
